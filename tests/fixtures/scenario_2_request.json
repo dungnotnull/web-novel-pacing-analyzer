@@ -1,0 +1,33 @@
+{
+  "title": "Flat Endings",
+  "genre": "general",
+  "length_format": "web_serial",
+  "goal": "Score hook density, propose cliffhanger insertions",
+  "chapters": [
+    {
+      "index": 1,
+      "title": "Day One",
+      "text": "He woke up. He ate. He went outside. The weather was mild. He returned home."
+    },
+    {
+      "index": 2,
+      "title": "Day Two",
+      "text": "She walked the dog. The park was nice. Birds sang. She made tea."
+    },
+    {
+      "index": 3,
+      "title": "Day Three",
+      "text": "The mail came. A bill. He paid it. Dinner was pasta. He slept."
+    },
+    {
+      "index": 4,
+      "title": "Day Four",
+      "text": "A meeting at work. Boring notes. He drove home. Rain started."
+    },
+    {
+      "index": 5,
+      "title": "Day Five",
+      "text": "She read a book. Calm evening. The cat slept. She slept too."
+    }
+  ]
+}

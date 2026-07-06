@@ -1,0 +1,43 @@
+{
+  "title": "Dungeon Run",
+  "genre": "litrpg",
+  "length_format": "web_serial",
+  "goal": "Check genre fit / reader expectations",
+  "chapters": [
+    {
+      "index": 1,
+      "title": "Activation",
+      "text": "Suddenly everything changed. No one expected what came next. The truth was far stranger than the rumors. Who was behind the door? The system activated. A status window opened. New skill acquired. Level up. Stats increased. A quest was issued by the guild."
+    },
+    {
+      "index": 2,
+      "title": "Party",
+      "text": "The system activated. A status window opened. New skill acquired. Level up. Stats increased. A quest was issued by the guild. A party formed. The dungeon opened. Grind for stats."
+    },
+    {
+      "index": 3,
+      "title": "Level",
+      "text": "The system activated. A status window opened. New skill acquired. Level up. Stats increased. A quest was issued by the guild. Level up. Respawn allowed. A new quest."
+    },
+    {
+      "index": 4,
+      "title": "Trap",
+      "text": "The battle raged. Blood and danger everywhere. The enemy attacked without warning. He barely escaped the trap. Desperate, racing against the deadline. Revenge burned. find out next what happened. The trap was set. Stats checked."
+    },
+    {
+      "index": 5,
+      "title": "Reversal",
+      "text": "But the truth changed everything. The real enemy was not what it seemed. Midpoint reversal: stakes escalated. The turning point shifted the war."
+    },
+    {
+      "index": 6,
+      "title": "Climax",
+      "text": "The final battle. Decisive climax showdown. The last stand against the dark lord. The ultimate confrontation. The end of the threat. Level up at the end."
+    },
+    {
+      "index": 7,
+      "title": "Resolution",
+      "text": "After the battle, the dust settled. Resolution at last. Returned home to a new normal. Epilogue. Peace returned."
+    }
+  ]
+}

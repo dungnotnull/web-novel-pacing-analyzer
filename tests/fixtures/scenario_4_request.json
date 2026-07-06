@@ -1,0 +1,48 @@
+{
+  "title": "Slow Start",
+  "genre": "fantasy",
+  "length_format": "web_serial",
+  "goal": "Restructure act one to hit inciting incident sooner",
+  "chapters": [
+    {
+      "index": 1,
+      "title": "Setup1",
+      "text": "It was a calm, quiet morning. Peaceful memories. A gentle rest. He thought deeply, smiled softly. Comfort in the warmth. Nothing happened."
+    },
+    {
+      "index": 2,
+      "title": "Setup2",
+      "text": "It was a calm, quiet morning. Peaceful memories. A gentle rest. He thought deeply, smiled softly. Comfort in the warmth. Nothing happened."
+    },
+    {
+      "index": 3,
+      "title": "Setup3",
+      "text": "It was a calm, quiet morning. Peaceful memories. A gentle rest. He thought deeply, smiled softly. Comfort in the warmth. Nothing happened. Nothing happened."
+    },
+    {
+      "index": 4,
+      "title": "Setup4",
+      "text": "It was a calm, quiet morning. Peaceful memories. A gentle rest. He thought deeply, smiled softly. Comfort in the warmth. Nothing happened."
+    },
+    {
+      "index": 5,
+      "title": "Catalyst",
+      "text": "Everything changed. The letter arrived. The call to adventure came. The system activated. A status window opened. New skill acquired. Level up. Stats increased. A quest was issued by the guild."
+    },
+    {
+      "index": 6,
+      "title": "Rising",
+      "text": "The battle raged. Blood and danger everywhere. The enemy attacked without warning. He barely escaped the trap. Desperate, racing against the deadline. Revenge burned. find out next what happened. But the truth changed everything. The real enemy was not what it seemed. Midpoint reversal: stakes escalated. The turning point shifted the war."
+    },
+    {
+      "index": 7,
+      "title": "Climax",
+      "text": "The final battle. Decisive climax showdown. The last stand against the dark lord. The ultimate confrontation. The end of the threat."
+    },
+    {
+      "index": 8,
+      "title": "End",
+      "text": "After the battle, the dust settled. Resolution at last. Returned home to a new normal. Epilogue. Peace returned."
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://skills.local/design-creative-media/web-novel-pacing-analyzer/scoring_schema.json",
+  "title": "Web-Novel Pacing Analyzer — Shared Scoring Schema",
+  "description": "Standardized scoring schema shared across the design-creative-media skill cluster so sub-skills (framework-selector, scoring-engine, trope-trend-updater, improvement-roadmap) can be reused by sibling skills without duplicated logic. Versioned for cross-skill compatibility.",
+  "version": "1.0.0",
+  "type": "object",
+  "required": ["title", "headline_score", "verdict", "dimension_scores", "roadmap", "gate_results"],
+  "properties": {
+    "title": { "type": "string" },
+    "headline_score": { "type": "number", "minimum": 0, "maximum": 100 },
+    "verdict": { "type": "string" },
+    "inputs_summary": { "type": "object" },
+    "framework_selection": {
+      "type": "object",
+      "required": ["genre", "length_format", "frameworks"],
+      "properties": {
+        "genre": { "type": "string" },
+        "length_format": { "type": "string", "enum": ["web_serial", "print", "novella", "short"] },
+        "frameworks": { "type": "array", "items": { "type": "string", "enum": [
+          "three_act", "save_the_cat", "heros_journey", "scene_sequel",
+          "hook_density", "tension_curve", "kishotenketsu", "retention_psych", "trope_convention"
+        ] } }
+      }
+    },
+    "tension_curve": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["chapter_index", "tension", "hook_strength", "cliffhanger"],
+        "properties": {
+          "chapter_index": { "type": "integer" },
+          "tension": { "type": "number", "minimum": 0, "maximum": 1 },
+          "hook_strength": { "type": "number", "minimum": 0, "maximum": 1 },
+          "cliffhanger": { "type": "boolean" },
+          "label": { "type": "string" }
+        }
+      }
+    },
+    "dimension_scores": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["dimension", "framework_id", "framework_name", "score", "weight", "evidence_tier"],
+        "properties": {
+          "dimension": { "type": "string", "enum": [
+            "structure", "act_pacing", "chapter_pacing", "hook_density",
+            "tension_curve", "arc_cadence", "trope_fit", "retention"
+          ] },
+          "framework_id": { "type": "string" },
+          "framework_name": { "type": "string" },
+          "score": { "type": "number", "minimum": 0, "maximum": 100 },
+          "weight": { "type": "number", "minimum": 0, "maximum": 1 },
+          "findings": { "type": "array", "items": { "type": "string" } },
+          "evidence": { "type": "array", "items": { "type": "string" } },
+          "evidence_tier": { "type": "string", "enum": [
+            "systematic_review", "meta_analysis", "benchmark",
+            "field_study", "expert_opinion", "internal_heuristic"
+          ] }
+        }
+      }
+    },
+    "chapter_risks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["chapter_index", "retention_risk"],
+        "properties": {
+          "chapter_index": { "type": "integer" },
+          "retention_risk": { "type": "string", "enum": ["low", "medium", "high"] },
+          "reasons": { "type": "array", "items": { "type": "string" } },
+          "suggested_fix": { "type": "string" }
+        }
+      }
+    },
+    "roadmap": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["priority", "title", "effort", "impact", "framework_id"],
+        "properties": {
+          "priority": { "type": "integer", "minimum": 1 },
+          "title": { "type": "string" },
+          "chapter_scope": { "type": "string" },
+          "effort": { "type": "string", "enum": ["low", "medium", "high"] },
+          "impact": { "type": "string", "enum": ["low", "medium", "high"] },
+          "framework_id": { "type": "string" },
+          "rationale": { "type": "string" },
+          "expected_gain": { "type": "number", "minimum": 0 }
+        }
+      }
+    },
+    "gate_results": {
+      "type": "object",
+      "properties": {
+        "evidence_gate": { "type": "object" },
+        "framework_gate": { "type": "object" },
+        "challenge_gate": { "type": "object" },
+        "all_passed": { "type": "boolean" }
+      }
+    },
+    "sources": { "type": "array", "items": { "type": "string" } },
+    "limitations": { "type": "array", "items": { "type": "string" } },
+    "challenge_pass": { "type": "string" }
+  }
+}

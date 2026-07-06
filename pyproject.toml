@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "web-novel-pacing-analyzer"
+version = "1.0.0"
+description = "Analyze web-novel structure and chapter pacing for retention in niche genres. Framework-grounded, deterministic, production-grade."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "design-creative-media skill cluster" }]
+keywords = ["web-novel", "pacing", "narrative", "story-structure", "retention", "claude-skill"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Topic :: Text Processing :: General",
+  "Intended Audience :: End Users/Desktop",
+]
+dependencies = []
+
+[project.optional-dependencies]
+knowledge = ["crawl4ai"]
+dev = ["pytest>=7.0"]
+
+[project.scripts]
+pacing_analyzer = "pacing_analyzer.cli:main"
+
+[tool.setuptools]
+package-dir = { "" = "tools" }
+
+[tool.setuptools.packages.find]
+where = ["tools"]
+
+[tool.setuptools.package-data]
+pacing_analyzer = ["data/*.json"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["tools"]

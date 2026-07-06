@@ -1,0 +1,185 @@
+{
+  "1": {
+    "headline_score": 62.8,
+    "verdict_starts_with": "At risk",
+    "gates_passed": true,
+    "chapter_count": 10,
+    "high_risk_chapters": [
+      5
+    ],
+    "roadmap_count": 7,
+    "dimension_scores": {
+      "structure": 67.2,
+      "act_pacing": 70.0,
+      "chapter_pacing": 82.7,
+      "hook_density": 65.9,
+      "tension_curve": 56.4,
+      "arc_cadence": 37.3,
+      "trope_fit": 30.0,
+      "retention": 73.0
+    },
+    "frameworks": [
+      "save_the_cat",
+      "three_act",
+      "scene_sequel",
+      "hook_density",
+      "tension_curve",
+      "retention_psych",
+      "trope_convention",
+      "kishotenketsu"
+    ]
+  },
+  "2": {
+    "headline_score": 42.9,
+    "verdict_starts_with": "Weak",
+    "gates_passed": true,
+    "chapter_count": 5,
+    "high_risk_chapters": [
+      1
+    ],
+    "roadmap_count": 8,
+    "dimension_scores": {
+      "structure": 54.5,
+      "act_pacing": 50.0,
+      "chapter_pacing": 64.7,
+      "hook_density": 12.5,
+      "tension_curve": 49.1,
+      "arc_cadence": 37.1,
+      "trope_fit": 0.0,
+      "retention": 68.0
+    },
+    "frameworks": [
+      "save_the_cat",
+      "three_act",
+      "scene_sequel",
+      "hook_density",
+      "tension_curve",
+      "retention_psych",
+      "kishotenketsu",
+      "trope_convention"
+    ]
+  },
+  "3": {
+    "headline_score": 64.1,
+    "verdict_starts_with": "At risk",
+    "gates_passed": true,
+    "chapter_count": 7,
+    "high_risk_chapters": [
+      3
+    ],
+    "roadmap_count": 6,
+    "dimension_scores": {
+      "structure": 75.5,
+      "act_pacing": 70.0,
+      "chapter_pacing": 84.3,
+      "hook_density": 35.9,
+      "tension_curve": 73.9,
+      "arc_cadence": 35.2,
+      "trope_fit": 70.0,
+      "retention": 68.0
+    },
+    "frameworks": [
+      "save_the_cat",
+      "three_act",
+      "scene_sequel",
+      "hook_density",
+      "tension_curve",
+      "retention_psych",
+      "trope_convention",
+      "kishotenketsu"
+    ]
+  },
+  "4": {
+    "headline_score": 43.2,
+    "verdict_starts_with": "Weak",
+    "gates_passed": true,
+    "chapter_count": 8,
+    "high_risk_chapters": [
+      1,
+      2,
+      4,
+      5
+    ],
+    "roadmap_count": 10,
+    "dimension_scores": {
+      "structure": 43.9,
+      "act_pacing": 0.0,
+      "chapter_pacing": 84.9,
+      "hook_density": 21.0,
+      "tension_curve": 71.7,
+      "arc_cadence": 29.3,
+      "trope_fit": 40.0,
+      "retention": 42.0
+    },
+    "frameworks": [
+      "save_the_cat",
+      "three_act",
+      "scene_sequel",
+      "hook_density",
+      "tension_curve",
+      "retention_psych",
+      "trope_convention",
+      "kishotenketsu"
+    ]
+  },
+  "5": {
+    "headline_score": 57.0,
+    "verdict_starts_with": "At risk",
+    "gates_passed": true,
+    "chapter_count": 6,
+    "high_risk_chapters": [
+      4
+    ],
+    "roadmap_count": 8,
+    "dimension_scores": {
+      "structure": 78.1,
+      "act_pacing": 64.0,
+      "chapter_pacing": 51.5,
+      "hook_density": 58.7,
+      "tension_curve": 65.7,
+      "arc_cadence": 18.0,
+      "trope_fit": 0.0,
+      "retention": 83.0
+    },
+    "frameworks": [
+      "save_the_cat",
+      "three_act",
+      "scene_sequel",
+      "hook_density",
+      "tension_curve",
+      "retention_psych",
+      "trope_convention",
+      "kishotenketsu"
+    ]
+  },
+  "6": {
+    "headline_score": 69.2,
+    "verdict_starts_with": "Adequate",
+    "gates_passed": true,
+    "chapter_count": 7,
+    "high_risk_chapters": [
+      4
+    ],
+    "roadmap_count": 5,
+    "dimension_scores": {
+      "structure": 71.9,
+      "act_pacing": 76.0,
+      "chapter_pacing": 81.2,
+      "hook_density": 46.8,
+      "tension_curve": 73.3,
+      "arc_cadence": 33.7,
+      "trope_fit": 100.0,
+      "retention": 78.0
+    },
+    "frameworks": [
+      "save_the_cat",
+      "three_act",
+      "scene_sequel",
+      "hook_density",
+      "tension_curve",
+      "retention_psych",
+      "trope_convention",
+      "kishotenketsu"
+    ]
+  }
+}
